@@ -1,0 +1,174 @@
+:root {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0f2fe;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+}
+
+.header-content {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav .left, nav .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav .right p {
+    margin: 0;
+}
+
+nav input[type="search"] {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 500px;
+    background-color: #e0f2fe;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left, header .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .greeting {
+    height: 64px;
+}
+
+.greeting h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.greeting p {
+    margin: 0;
+    font-weight: 500;
+} 
+
+button {
+    background-color: #bae6fd;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    font-size: 1rem;
+}
+
+.sidebar {
+    background-color: #bae6fd;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    width: 240px;
+    height: 100vh;
+    grid-row: 1 / 4;
+}
+
+.dash-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dash-head h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.dash-row {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.dash-row a {
+    font-weight: 500;
+}
+
+main {
+    padding: 10px 30px;
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 4fr 4fr;
+    gap: 20px;
+}
+
+main h2 {
+    grid-column: 1 / 4;
+}
+
+main .card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.card h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile-pic {
+    width: 64px;
+    height: 64px;
+}
+
+.dash-icon, .user-profile {
+    width: 45px;
+    height: 45px;
+}
